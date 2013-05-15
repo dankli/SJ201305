@@ -5,8 +5,8 @@ public class SearchResult
             this.Suggestions = new List<string>();
             this.UsedObjects = new List<UsedObject>();
         }
-        public RavenQueryStatistics Stats { get; set; }
+
+        public QueryStatistics Statistics { get; set; }
         public List<string> Suggestions { get; set; }
-        public long TimeToExeute { get; set; }
         public List<UsedObject> UsedObjects { get; set; }
     }
