@@ -1,0 +1,6 @@
+public class QueryStatistics
+    {
+        public int TotalResults { get; set; }
+        public int SkippedResults { get; set; }
+        public long TimeToExeute { get; set; }
+    }
